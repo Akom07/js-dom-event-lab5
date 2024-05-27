@@ -1,3 +1,25 @@
+@media only screen and (max-width: 600px) {.contenier{
+    display: grid;
+    grid-template-areas:
+    'labal1'
+    'input1'
+    'labal2' 
+    'input2'
+    'clac'
+    ;
+    justify-content: center;
+    
+}
+
+.theInvoiceDiv{
+    display: grid;
+    grid-template-areas:     
+    'invTax invT'
+    'invText inv'
+    ;
+    justify-content: center;
+}}
+@media only screen and (min-width: 600px) {
 .contenier{
     display: grid;
     grid-template-areas:
@@ -17,7 +39,7 @@
     ;
     justify-content: center;
 }
-
+}
 
 
 #invoice{grid-area: input1;}
