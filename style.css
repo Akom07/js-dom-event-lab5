@@ -1,0 +1,29 @@
+.contenier{
+    display: grid;
+    grid-template-areas:
+    'labal1 input1'
+    'labal2 input2'
+    'clac clac'
+    ;
+    justify-content: center;
+    
+}
+
+.theInvoiceDiv{
+    display: grid;
+    grid-template-areas:     
+    'invTax invT'
+    'invText inv'
+    ;
+    justify-content: center;
+}
+
+
+
+#invoice{grid-area: input1;}
+#num{grid-area: input2;}
+#invoiceL{grid-area:labal1 ;}
+#numL{grid-area:labal2 ;}
+#clac{grid-area:clac;}
+#invText{ grid-area:invText ;}
+#inv{ grid-area:inv ;}
